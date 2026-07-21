@@ -4,6 +4,7 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+  base: "/ASSISTENTE-DE-ESCRITA-PROFISSIONAL/",
   return {
     plugins: [react(), tailwindcss()],
     resolve: {
